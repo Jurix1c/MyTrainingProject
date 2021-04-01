@@ -36,6 +36,13 @@ body {
     height: 100%;
 }
 
+.wrapper__default {
+    width: 1200px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -225,4 +232,9 @@ body {
 .footer-menu li a:hover {
     color: #3b0f0f;
     border-bottom: 1px dashed #3b0f0f;
+}
+
+
+.header__padding {
+    padding: 10px 0px 0px 0px;
 }
